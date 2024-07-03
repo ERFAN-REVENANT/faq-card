@@ -1,0 +1,88 @@
+@font-face {
+    font-family: "worksans italic";
+    src: url(./assets/fonts/WorkSans-Italic-VariableFont_wght.ttf);
+}
+@font-face {
+    font-family: "worksans";
+    src: url(./assets/fonts/WorkSans-VariableFont_wght.ttf);
+}
+body{
+    background-color: #f9eeff;
+    overflow: hidden;
+    width: 100%;
+    font-family: "worksans";
+}
+.background{
+    position: absolute;
+    top: -15%;
+    left: -1%;
+    z-index: -1;
+}
+.background img{
+    width: 110%;
+    height: auto;
+}
+.card{
+    margin: auto;
+    width: 550px;
+    height: 500px;
+    background-color: #ffffff;
+    padding: 30px;
+    border-radius: 15px;
+    margin-top: 12vh;
+}
+.header{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 20px;
+    font-weight: 800;
+    font-size: 40px;
+    margin-bottom: 25px;
+}
+.header img{
+    height: auto;
+    width: 30px;
+}
+.dropdown {
+    margin: 20px;
+    border-bottom: 1px solid #ddd;
+    overflow: hidden;
+}
+.dropdown:last-child{
+    border-bottom: none;
+}
+
+.dropdown-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    cursor: pointer;
+    font-weight: 600;
+}
+
+.dropicon {
+    background: none;
+    border: none;
+    cursor: pointer;
+}
+
+.dropicon img {
+    width: 20px;
+    height: 20px;
+    display: none;
+}
+
+.dropicon .plus {
+    display: inline;
+}
+
+.content {
+    display: none;
+    padding: 10px 20px;
+}
+
+.content p {
+    margin: 0;
+}

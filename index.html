@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="./style.css">
+  <title>Document</title>
+</head>
+<body>
+  <div class="background"><img src="./assets/images/background-pattern-desktop.svg"></div>
+  <div class="card">
+    <div class="header"><img src="./assets/images/icon-star.svg">FAQs</div>
+    <div class="dropdown">
+      <div class="dropdown-header">
+          <p>What is Frontend Mentor, and how will it help me?</p>
+          <button class="dropicon" onclick="toggleDropdown('content1', 'plus1', 'minus1')">
+              <img src="./assets/images/icon-plus.svg" id="plus1" class="plus plus1" alt="plus icon">
+              <img src="./assets/images/icon-minus.svg" id="minus1" class="minus minus1" alt="minus icon">
+          </button>
+      </div>
+      <div class="content" id="content1">
+          <p>Frontend Mentor offers realistic coding challenges to help developers improve their frontend coding skills with projects in HTML, CSS, and JavaScript. It's suitable for all levels and ideal for portfolio building.</p>
+      </div>
+    </div>
+    
+    <div class="dropdown">
+      <div class="dropdown-header">
+          <p>Is Frontend Mentor free?</p>
+          <button class="dropicon" onclick="toggleDropdown('content2', 'plus2', 'minus2')">
+              <img src="./assets/images/icon-plus.svg" id="plus2" class="plus plus2" alt="plus icon">
+              <img src="./assets/images/icon-minus.svg" id="minus2" class="minus minus2" alt="minus icon">
+          </button>
+      </div>
+      <div class="content" id="content2">
+          <p>Frontend Mentor has both free and paid plans. The free plan includes a selection of challenges, while the premium plan gives you access to more advanced challenges and additional resources.</p>
+      </div>
+    </div>
+    
+    <div class="dropdown">
+      <div class="dropdown-header">
+          <p>Can I use Frontend Mentor projects in my portfolio?</p>
+          <button class="dropicon" onclick="toggleDropdown('content3', 'plus3', 'minus3')">
+              <img src="./assets/images/icon-plus.svg" id="plus3" class="plus plus3" alt="plus icon">
+              <img src="./assets/images/icon-minus.svg" id="minus3" class="minus minus3" alt="minus icon">
+          </button>
+      </div>
+      <div class="content" id="content3">
+          <p>Yes, you can use Frontend Mentor projects in your portfolio. These projects are designed to simulate real-world scenarios and help you build a strong portfolio.</p>
+      </div>
+    </div>
+    
+    <div class="dropdown">
+      <div class="dropdown-header">
+          <p>How can I get help if I'm stuck on a challenge?</p>
+          <button class="dropicon" onclick="toggleDropdown('content4', 'plus4', 'minus4')">
+              <img src="./assets/images/icon-plus.svg" id="plus4" class="plus plus4" alt="plus icon">
+              <img src="./assets/images/icon-minus.svg" id="minus4" class="minus minus4" alt="minus icon">
+          </button>
+      </div>
+      <div class="content" id="content4">
+          <p>You can get help from the Frontend Mentor community, join their Slack channel, or view solutions submitted by other users for inspiration.</p>
+      </div>
+    </div>
+    
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>
